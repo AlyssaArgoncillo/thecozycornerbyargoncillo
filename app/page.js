@@ -3,8 +3,8 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50">
-      <main className="flex w-full max-w-3xl flex-col items-center gap-10 py-24 px-10 bg-white rounded-lg shadow">
+    <div className="flex h-screen items-center justify-center bg-zinc-50">
+      <main className="flex w-full max-w-3xl flex-col items-center gap-5 py-24 px-10 bg-white rounded-lg shadow">
         <Image
           src="/images/book1.png"
           alt="The Cozy Corner"

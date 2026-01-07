@@ -7,16 +7,16 @@ export default function ContactPage() {
         <input
           type="text"
           placeholder="Name"
-          className="w-full border p-2 rounded"
+          className="text-zinc-400 w-full border p-2 rounded"
         />
         <input
           type="email"
           placeholder="Email"
-          className="w-full border p-2 rounded"
+          className="text-zinc-400 w-full border p-2 rounded"
         />
         <textarea
           placeholder="Message"
-          className="w-full border p-2 rounded"
+          className="text-zinc-400 w-full border p-2 rounded"
         />
         <button className="w-full bg-black text-white py-2 rounded hover:bg-zinc-800">
           Send Message
